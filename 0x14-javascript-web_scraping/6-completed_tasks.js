@@ -1,5 +1,4 @@
 #!/usr/bin/node
-#question 6
 const request = require('request');
 request(process.argv[2], function (error, response, body) {
   if (!error) {
